@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./app
+    ports:
+      - "8514:514/udp"
+    command: python IntegrationService.py
+
+  app:
+    build: ./housekeeping
+    command: python HousekeepingService.py
