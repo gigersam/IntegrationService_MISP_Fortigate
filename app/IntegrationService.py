@@ -42,7 +42,7 @@ class Fortigate:
             "associated-interface": {
                 "q_origin_key": "wan1"
             },
-            "comment": "IntegrationService:" + str(datetime.datetime.now())
+            "comment": str(datetime.datetime.now())
         }
         response = requests.post(url, headers=self.headers, json=payload, verify=False)
     
