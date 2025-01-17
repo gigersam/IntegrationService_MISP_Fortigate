@@ -4,6 +4,6 @@ MISP_FEED_UPDATE_CYCLE = 43200 # Time in Seconds 43200 = 12h
 
 BLOCK_GROUP_NAME = "BLOCK_GROUP_NAME"
 TO_CHECK_OBJECTS = [["RULEID","ACTIONTYPE"]] # [["RULEID","ACTION(accept/deny/close)"]]
-FORTIGATE_IP = "IP" # IP or Hostname "misp.test.com"
+FORTIGATE_IP = "IP" # IP or Hostname "fortigate.test.com"
 FORTIGATE_API_KEY = "API_KEY"
 FORTIGATE_ADDRESS_OBJECTS_REMOVE_CYCLE = 43200 # Time in Seconds 43200 = 12h
