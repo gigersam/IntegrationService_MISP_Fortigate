@@ -7,6 +7,6 @@ services:
       - "8514:514/udp"
     command: python IntegrationService.py
 
-  app:
+  housekeeping:
     build: ./housekeeping
     command: python HousekeepingService.py

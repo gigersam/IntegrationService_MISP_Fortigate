@@ -6,7 +6,6 @@ WORKDIR /app
 
 # Copy the current directory contents into the container
 COPY . .
-COPY ../Config.py ./Config.py
 
 # Install the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
